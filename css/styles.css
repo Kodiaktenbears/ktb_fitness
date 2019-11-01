@@ -1,0 +1,213 @@
+/* Style for body specifies a background color */
+body {
+		background-color: #FFFF99;
+}
+
+/* Style to create a fluid image */
+img {
+	max-width: 100%;
+}
+
+/* Styles for mobile layout */
+
+/* Style for container centers the page and sets the element width*/
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for header specifies top and bottom margins, background color, rounded corners, shadow, and center aligns contnet. */
+header {
+	margin-top: 0.2em;
+	background-color: #FFFFFF;
+	border-radius: 0.5em;
+	text-align: center;
+}
+
+/* Sytle for nav specifies text properties */
+nav {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* Style specifies padding and margins for ul */
+nav ul {
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+/* Style for nav li specifies the back color, rounded corners, removes bullet styles, and applies margins and padding */
+nav li {
+	background-color: #009933;
+	border-radius: 2em;
+	list-style-type: none;
+	margin: 0.3em;
+	padding: 0.5em;
+}
+
+/* Style changes navigation link text color to white and removes the underline */
+nav li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+/* Style displays the mobile class */
+.mobile {
+	display: inline;
+}
+
+/* Style hides the desktop class */
+.desktop {
+		display: none;
+}
+
+/* Style for main element specifies a block display, text properties, margins, padding, rounded corners, and border properties */
+main {
+	display: block;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1em;
+	margin-top: 0.5em;
+	padding: 1em;
+	border-radius: 1em;
+	background-color: #FFFFFF;
+	border-top: solid 0.2em #009933;
+	border-bottom: solid 0.2em #009933;
+}
+
+/* Style for footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: 2em;
+}
+
+/* Style hides the tablet class */
+.tablet {
+	display: none;
+}
+
+/* Style rule specifies to not display the equip class */
+.equip {
+	display: none;
+}
+
+/* media queary for tablet viewport */
+
+@media only screen and (min-width: 660px) {
+	
+/* style is horizontal display for nav links */
+nav li {
+	display: inline;
+	float: left;
+	margin-left: 1%;
+	margin-right: 1%;
+	padding-left: 0%;
+	padding-right: 0%;
+	width: 18%;
+	white-space: nowrap;
+}
+
+main {
+	clear: left;
+	margin-top: 4em;
+}
+
+.mobile {
+	display: none;
+}
+
+.desktop {
+	display: inline;
+}
+
+.equip {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+
+.items {
+	display: block;
+	list-style-position: inside;
+	margin-bottom: 5em;
+}
+
+.tablet {
+	display: block;
+}
+
+dt {
+	font-weight: bold;
+	margin-top: 0.7em;
+}
+
+}
+@media only screen and (min-width: 830px) {
+	
+/* Style specifies width for container */
+#container {
+	width: 80%;
+}
+
+nav ul {
+	margin: 0;
+	padding-left: 0.50%;
+	padding-right: 0.50%;
+}
+
+nav li {
+	border-radius: 0;
+	border-top: solid #000000;
+	border-bottom: solid #000000;
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
+	width: 20%;
+}
+nav li a {
+	display: inline-block;
+	padding: 0.7em;
+}
+
+nav li a:link {
+	color: #FFFFFF;
+}
+
+nav li a:visited {
+	color: #FFFF99;
+}
+
+nav li a:hover {
+	color: #FFFF00;
+	font-style: italic;
+}
+
+main {
+	border-style: none;
+	box-shadow: 0.5em 0.5em 0.5em #404040;
+	margin-bottom: 1em;
+	margin-top: 1em;
+}
+
+main p {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+.items {
+	margin-bottom: 6em;
+}
+
+body {
+	background:-moz-linear-gradient(#FFFFFF, #FFFF99);
+	background:-o-linear-gradient(#FFFFFF, #FFFFF99);
+	background:-webkit-linear-gradient(#FFFFFF, #FFFF99);
+	background:linear-gradient(#FFFFFF, #FFFF99);
+	background-attachment: fixed;
+}
+
+}

@@ -1,0 +1,138 @@
+/* Sytle sheet created by: Kodiak Tenbears, May 9, 2019*/
+
+/* Style for body specifies a background color */
+body {
+		background-color: #ea1cd9;
+		font-family: Georgia, "Times New Roman", serif;
+		font-size: 15.25px;
+		font-weight: bold;
+		text-align: center;
+		padding: 15px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		border-radius: 80px;
+		border-top: 5px solid #000000;
+		border-bottom: 5px solid #000000;
+		border: 5px solid 000000;
+}
+
+
+/* Style to create a fluid image */
+img {
+	max-width: 80%;
+	border: 5px solid #FFFFFF;
+	border-radius: 2em;
+}
+
+/* Styles for mobile layout */
+
+/* Style for container centers the page and sets the element width*/
+#container {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Style for header specifies top and bottom margins, background color, rounded corners, shadow, and center aligns contnet. */
+header {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-family: Georgia, "Times New Roman", serif;
+	font-weight: bold;
+	font-size: 15.25px;
+	color: #FFFFFF;
+	background-color: #000000;
+	border-radius: 10px;
+	box-shadow: 12px 12px 12px #404040;
+	text-align: center;
+}
+
+/* Sytle for nav specifies text properties */
+nav {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 15.25px;
+	padding: 3px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	border-radius: 2em;
+	border: 5px solid #000000;
+	text-align: center;
+}
+
+/* Style specifies padding and margins for ul */
+nav ul {
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+/* Style for nav li specifies the back color, rounded corners, removes bullet styles, and applies margins and padding */
+nav li {
+	background-color: #000000;
+	border-radius: 2em;
+	list-style-type: none;
+	margin: 0.3em;
+	padding: 0.5em;
+}
+
+/* Style changes navigation link text color to white and removes the underline */
+nav li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+/* Style displays the mobile class */
+.mobile {
+	display: inline;
+}
+
+/* Style hides the desktop class */
+.desktop {
+		display: none;
+}
+
+/* Style for main element specifies a block display, text properties, margins, padding, rounded corners, and border properties */
+main {
+	display: block;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1em;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #FFFFFF;
+	box-shadow: 12px 12px 12px #404040;
+}
+
+/* Style for footer specifies font size, text alignment, and top margin */
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: 20px;
+}
+
+/* Style hides the tablet class */
+.tablet {
+	display: none;
+}
+
+/* Style rule specifies to not display the equip class */
+.equip {
+	float: left;
+	padding-right: 20px;
+	padding: 20px;
+}
+
+ul {
+	margin-bottom: 50px;
+	list-style-position: inside;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	padding-bottom: 20px;
+}
